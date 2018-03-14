@@ -2,7 +2,7 @@
 
 ### Ejecución
 
-Para ejecutar la prueba hay que abrir el archivo 'conway.html'
+Para ejecutar la prueba hay que descargar o clonar los archivos y abrir 'conway.html'
 
 ### Lenguaje de programación
 

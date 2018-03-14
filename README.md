@@ -30,7 +30,7 @@ Para la realización de la prueba he tenido en cuenta los siguientes factores:
 
   - Tener en cuentas las 8 celulas vecinas para saber si en la siguiente generación sigue viva o muere.
       Para plantear esto, se  ha realizado una pequeña tabla, sabiendo que la célula que revisamos en nuestro caso, está en la posición (0 ,0) y las comprobamos con las vecinas de esta manera:
-      Por ejemplo: La vecina de la esquina superior izquierda se encuentra a (x-1, y-1) respecto a la nuestra. Es decir si nuestra celula se encuentra en la posicion (3, 3), la vecina superior izquierda se encontraria en la posición (2, 2)
+      Por ejemplo: La vecina de la esquina superior izquierda se encuentra a (x-1, y-1) respecto a la nuestra. Es decir si nuestra celula se encuentra en la posición (3, 3), la vecina superior izquierda se encontraria en la posición (2, 2)
       +----------+----------+----------+
       | (-1, -1) | (-1,  0) | (-1,  1) |
       +----------+----------+----------+

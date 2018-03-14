@@ -13,7 +13,6 @@ canvas.height = gridHeight * resolution;
 var grid = [];
 var Next = [];
 
-
 for (var row = 0; row < gridWidth; row++) {
 
   grid[row] = [];
@@ -119,7 +118,6 @@ function draw() {
       if (grid[row][cell] == 1) {
         ctx.fillStyle = "#c3c3c3";
         ctx.fillRect(row * resolution, cell * resolution, resolution, resolution);
-
       }
     }
   }

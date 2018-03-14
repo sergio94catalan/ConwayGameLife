@@ -28,7 +28,8 @@ Para la realización de la prueba he tenido en cuenta los siguientes factores:
       Si tiene 1 célula viva o más de 3, esta célula seguirá muerta o morirá en la siguiente generación.
 
 
-  - Tener en cuentas las 8 celulas vecinas para saber si en la siguiente generación sigue viva o muere. Para plantear esto, se  ha realizado una pequeña tabla sabiendo que la célula revisamos en nuestro caso esta en la posición (0 ,0) y las comprobamos con las vecinas de esta manera:
+  - Tener en cuentas las 8 celulas vecinas para saber si en la siguiente generación sigue viva o muere.
+  Para plantear esto, se  ha realizado una pequeña tabla sabiendo que la célula revisamos en nuestro caso esta en la posición (0 ,0) y las comprobamos con las vecinas de esta manera:
       La vecina de la esquina superior izquierda se encuentra a (x-1, y-1) respecto a la nuestra. Es decir si nuestra celula se encuentran en la posicion (3, 3), la vecina superior izquierda se encontraria en la posición (2, 2)
       +----------+----------+----------+
       | (-1, -1) | (-1,  0) | (-1,  1) |
